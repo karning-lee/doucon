@@ -1,0 +1,78 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+*{
+    box-sizing:border-box;
+}
+textarea,input: click{
+    curson: pointer;
+    font-size: 2rem;
+} 
+
+.box{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+textarea,p {
+    width: 50vw;
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
+    font-size: 18pt;
+    font-family: 'arial';
+}
+
+textarea{
+    resize: none;
+}
+
+p {
+  /* border: 1px solid #eee; */
+  padding: 9px;
+  background-color: black;
+  color: white;
+}
+
+.input-scale-controller span,
+.output-scale-controller span{
+    opacity: 0.5;
+    padding: 9px;
+    font-family: 'arial';
+}
+
+.input-scale-controller span:hover,
+.output-scale-controller span:hover{
+    cursor: pointer;
+}
+
+.input-scale-controller,
+.output-scale-controller{
+    position: fixed;
+    bottom:9px;  
+}
+
+.output-scale-controller{
+    color: white;
+}
+/* 
+.input-scale-controller{
+    display: flex;
+    border: 1px solid red;
+    width: 50vw;
+}
+
+.input-scale-controller div{
+    width: 50%;
+} */
+
+.input-scale-controller div:nth-of-type(1){
+
+}
+
